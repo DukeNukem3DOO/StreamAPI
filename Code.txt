@@ -1,2 +1,2 @@
 List number = Arrays.asList(2,3,4,5,6,7);
-List square = number.stream().map(x->x*x).collect(Collectors.toList());
+List square = number.stream().map(x->x*10).collect(Collectors.toList());
